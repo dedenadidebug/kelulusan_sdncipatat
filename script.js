@@ -3,98 +3,98 @@ const databaseSiswa = [
   {
     peserta: "25-0229-001",
     nama: "Aditya Nugraha",
-    foto: "assets/siswa/aditya.jpg",
+    foto: "assets/siswa/aditya.JPG",
     status: "LULUS"
   },
 
   {
     peserta: "25-0229-002",
     nama: "Aqila Azzahra",
-    foto: "assets/siswa/aqila.jpg",
+    foto: "assets/siswa/aqila.JPG",
     status: "LULUS"
   },
 
   {
     peserta: "25-0229-003",
     nama: "ARA ANGGRAINI",
-    foto: "assets/siswa/ara.jpg",
+    foto: "assets/siswa/ara.JPG",
     status: "LULUS"
   },
 
   {
     peserta: "25-0229-004",
     nama: "Dammas Adikaka",
-    foto: "assets/siswa/damas.jpg",
+    foto: "assets/siswa/damas.JPG",
     status: "LULUS"
   },
 
   {
     peserta: "25-0229-005",
     nama: "Fiqrie Septian Saefudin",
-    foto: "assets/siswa/fiqrie.jpg",
+    foto: "assets/siswa/fiqrie.JPG",
     status: "LULUS"
   },
 
   {
     peserta: "25-0229-006",
     nama: "KARYANA SIDIK SYAHPUTRA",
-    foto: "assets/siswa/karyana.jpg",
+    foto: "assets/siswa/karyana.JPG",
     status: "LULUS"
   },
 
   {
     peserta: "25-0229-007",
     nama: "Malikha Nur Hasanah",
-    foto: "assets/siswa/malikha.jpg",
+    foto: "assets/siswa/malikha.JPG",
     status: "LULUS"
   },
 
   {
     peserta: "25-0229-008",
     nama: "Muhamad Raihan Wildan Firdaus",
-    foto: "assets/siswa/raihan.jpg",
+    foto: "assets/siswa/raihan.JPG",
     status: "LULUS"
   },
 
   {
     peserta: "25-0229-009",
     nama: "Muhammad Raka Al Fariji",
-    foto: "assets/siswa/raka.jpg",
+    foto: "assets/siswa/raka.JPG",
     status: "LULUS"
   },
 
   {
     peserta: "25-0229-010",
     nama: "Refan Triana Nugraha",
-    foto: "assets/siswa/refan.jpg",
+    foto: "assets/siswa/refan.JPG",
     status: "LULUS"
   },
 
   {
     peserta: "25-0229-011",
     nama: "Regina Eka Saputri",
-    foto: "assets/siswa/regina.jpg",
+    foto: "assets/siswa/regina.JPG",
     status: "LULUS"
   },
 
   {
     peserta: "25-0229-012",
     nama: "RIZAL MEI ALFARIZI",
-    foto: "assets/siswa/rizal.jpg",
+    foto: "assets/siswa/rizal.JPG",
     status: "LULUS"
   },
 
   {
     peserta: "25-0229-013",
     nama: "Taopik Hidayat",
-    foto: "assets/siswa/topik.jpg",
+    foto: "assets/siswa/topik.JPG",
     status: "LULUS"
   },
 
   {
     peserta: "25-0229-014",
     nama: "Wildan Fakhrureza",
-    foto: "assets/siswa/wildan.jpg",
+    foto: "assets/siswa/wildan.JPG",
     status: "LULUS"
   }
 
