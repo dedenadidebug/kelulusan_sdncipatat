@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Pengumuman Kelulusan SDN Cipatat</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- LOADING AWAL -->
+
+<div id="loading-screen">
+
+  <div class="loading-content">
+
+    <img src="assets/logo.png" class="loading-logo">
+
+    <h1>SDN CIPATAT</h1>
+
+    <p>Memuat Pengumuman Kelulusan...</p>
+
+    <div class="loading-bar">
+      <div class="loading-progress"></div>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- LOADING CEK -->
+
+<div id="checking-screen">
+
+  <div class="checking-card">
+
+    <div class="scanner-line"></div>
+
+    <img src="assets/logo.png" class="checking-logo">
+
+    <h1>MEMVERIFIKASI KELULUSAN</h1>
+
+    <p>
+      Sistem sedang memproses data siswa...
+    </p>
+
+    <div class="checking-loader">
+
+      <span></span>
+      <span></span>
+      <span></span>
+
+    </div>
+
+  </div>
+
+</div>
+
+<!-- BACKGROUND -->
+
+<div class="background"></div>
+
+<!-- HOME -->
+
+<section id="home-page" class="page active">
+
+  <div class="container">
+
+    <img src="assets/logo.png" class="logo">
+
+    <h1>PENGUMUMAN KELULUSAN</h1>
+
+    <h2>SDN CIPATAT</h2>
+
+    <p class="subtitle">
+      Tahun Ajaran 2025 / 2026
+    </p>
+
+    <div class="search-box">
+
+      <input 
+        type="text"
+        id="peserta"
+        placeholder="Masukkan No. Peserta"
+        autocomplete="off"
+      >
+
+      <button onclick="cekKelulusan()">
+        CEK KELULUSAN
+      </button>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- RESULT -->
+
+<section id="result-page" class="page">
+
+  <div id="particles"></div>
+
+  <div class="result-container">
+
+    <div class="result-card">
+
+      <div class="photo-ring">
+
+        <img id="fotoSiswa" class="student-photo">
+
+      </div>
+
+      <h1 id="namaSiswa"></h1>
+
+      <p id="pesertaSiswa"></p>
+
+      <div id="statusKelulusan"></div>
+
+      <button class="back-btn" onclick="kembali()">
+        Kembali
+      </button>
+
+    </div>
+
+  </div>
+
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
